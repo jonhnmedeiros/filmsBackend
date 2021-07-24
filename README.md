@@ -32,21 +32,26 @@ API desenvolvida a cargo de avaliação de conhecimentos para conexão com banco
 
 Através do código fonte é possível iniciar o nodejs através de 
 
+```
 yarn
 yarn start 
+```
 
 O mesmo irá criar o banco de dados na pasta DB caso ainda não esteja.
 
 A API é acessada através da porta 3000
 
-GETS and POSTS - JSON
+### GETS and POSTS - JSON
 
+```
 Consultar Filmes
 GET http://localhost:3000/movies
----
+```
+```
 Pesquisa por Filme
 GET http://localhost:3000/movies/id
----
+```
+```
 Incluir um Filme
 POST http://localhost:3000/movies/
 
@@ -54,13 +59,16 @@ POST http://localhost:3000/movies/
 	"title": "Título do Filme",S
 	"year": Ano do filme
 }
----
+```
+```
 Consultar Espectadores
 GET http://localhost:3000/spectators
----
+```
+```
 Pesquisa por Espectador
 GET http://localhost:3000/spectators/id
----
+```
+```
 Incluir um Espectador
 POST http://localhost:3000/spectators
 
@@ -68,7 +76,8 @@ POST http://localhost:3000/spectators
 	"name": "Primeiro nome",
 	"last_name": "Segundo nome"
 }
----
+```
+```
 Sinalizar que um espectador assistiu um filme
 POST http://localhost:3000/view/
 
@@ -76,15 +85,17 @@ POST http://localhost:3000/view/
 	"id_spectators": id do espectador,
 	"id_movies": id do filme
 }
----
+```
+```
 Consultar todos os filmes e espectadores
 GET http://localhost:3000/views
----
+```
+```
 Pesquisa por filmes e espectadores que viram.
 GET http://localhost:3000/views_spectator/id 
----
+```
+```
 Pesquisa por espectadores e filmes que foram vistos por ele
 GET http://localhost:3000/views_movies/id
-
----
+```
 
