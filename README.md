@@ -89,6 +89,5 @@ GET http://localhost:3000/views_spectator/id
 Pesquisa por espectadores e filmes que foram vistos por ele
 GET http://localhost:3000/views_movies/id
 
-
 ---
 

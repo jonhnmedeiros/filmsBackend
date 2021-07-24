@@ -1,7 +1,7 @@
 {
   "name": "filmsBackend",
   "version": "1.0.0",
-  "description": "API desenvolvida a cargo de avaliação de conhecimentos para conexão com banco de dados compostos de filmes e espectadores. É possível registrar os filmes e as pessoas que assistiram.",
+  "description": "API desenvolvida a cargo de avaliação de conhecimentos para conexão com banco de dados compostos de filmes e espectadores. É possível registrar os filmes e as pessoas que já assistiram.",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js "

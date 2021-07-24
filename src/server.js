@@ -2,7 +2,6 @@
 const sqlite3 = require('sqlite3');
 const express = require('express');
 const server = express();
-
 server.use(express.json());
 
 //Start server
@@ -58,7 +57,6 @@ const db = new sqlite3.Database('./src/db/films.sqlite', (err) => {
         });
     }
 });
-
 
 //Get movies
 server.get("/movies", (req, res, next) => {
