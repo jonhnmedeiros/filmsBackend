@@ -90,10 +90,5 @@ Pesquisa por espectadores e filmes que foram vistos por ele
 GET http://localhost:3000/views_movies/id
 
 
-## :memo: Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
-
 ---
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
