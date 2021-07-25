@@ -1,8 +1,7 @@
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#-acessos">Acessos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
@@ -28,7 +27,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 API desenvolvida a cargo de avaliação de conhecimentos para conexão com banco de dados compostos de filmes e espectadores.
 É possível registrar os filmes e as pessoas que assistiram.
 
-## 🔖 Acessos a API
+## 🔖 Acessos
 
 Através do código fonte é possível iniciar o nodejs através de 
 
